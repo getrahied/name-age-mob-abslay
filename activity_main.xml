@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="#FFFFFF"
+    tools:ignore="Deprecated">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textSize="30dp"
+            android:textStyle="bold|italic"
+            android:textColor="#000000"
+            android:layout_y="80pt" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:backgroundTint="#000000"
+            android:layout_y="75pt"
+            android:layout_x="95dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Age:"
+            android:textSize="30dp"
+            android:textStyle="bold|italic"
+            android:textColor="#000000"
+            android:layout_y="120pt" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:backgroundTint="#000000"
+            android:layout_y="115pt"
+            android:layout_x="95dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mob:"
+            android:textSize="30dp"
+            android:textStyle="bold|italic"
+            android:textColor="#000000"
+            android:layout_y="160pt" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_y="155pt"
+            android:layout_x="95dp"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:backgroundTint="#000000" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#6600ff"
+            android:layout_y="200pt"
+            android:layout_x="120pt" />
+            
+</AbsoluteLayout>            
+            
